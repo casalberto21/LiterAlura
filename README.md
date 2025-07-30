@@ -39,23 +39,15 @@ Encerra a aplicação.
 
 ⚙️ Como Rodar o Projeto
 
-🔹 1️⃣ Clonar o repositório
-git clone https://github.com/SEU-USUARIO/literalura.git
-cd literalura
-🔹 2️⃣ Criar o banco de dados PostgreSQL
-CREATE DATABASE literalura;
-📌 Anote os dados de acesso (usuário, senha, porta).
+git clone https://github.com/casalberto21/LiterAlura.git
+
 
 🔹 3️⃣ Configurar o arquivo application.properties
 No arquivo src/main/resources/application.properties, configure as credenciais do seu banco:
 (Dica: para não colocar a senha no arquivo e aumentar a segurança, use variáveis de ambiente no sistema operacional e referencie aqui com ${VARIAVEL})
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-spring.datasource.username=SEU_USUARIO
-spring.datasource.password=SUA_SENHA
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
+
+
 🔹 4️⃣ Rodar o projeto
 ./mvnw spring-boot:run
 Ou, se estiver usando uma IDE (IntelliJ/Eclipse), execute a classe LiterAluraApplication.
@@ -73,7 +65,7 @@ Ao rodar a aplicação, será exibido um menu:
 6 - Top 5 livros mais baixados
 0 - Sair
 ------------------------------
-Digite o número da opção desejada e siga as instruções.
+
 
 📈 Exemplo de Uso
 
@@ -131,6 +123,7 @@ Digite a opção desejada: 6
 Digite a opção desejada: 0
 Saindo do programa...
 
+
 📦 Estrutura do Projeto
 
 literalura
@@ -142,6 +135,6 @@ literalura
 │   └── LiterAluraApplication.java  # Classe main
 └── src/main/resources
     └── application.properties
-👤 Autor
 
-Carlos Junior – Challenge LiterAlura (Alura + Oracle ONE)
+
+Carlos Alberto Pereira Junior – Challenge LiterAlura (Alura + Oracle ONE)
