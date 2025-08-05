@@ -29,7 +29,7 @@ A aplicação também permite consultar, listar e filtrar os livros e autores j�
 | **API**         | Gutendex (Projeto Gutenberg)         |
 | **Ferramentas** | Maven, Git, IntelliJ IDEA            |
 
-## 🚀 Como Executar
+
 
 ### Pré-requisitos
 - Java 17+
