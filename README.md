@@ -1,12 +1,13 @@
-# 📚 Literalura - Explorador de Livros do Domínio Público
+# 📚 Literalura 
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Gutendex API](https://img.shields.io/badge/Gutendex_API-000000?style=flat&logo=json&logoColor=white)
 
-Aplicação Java com Spring Boot para busca e catalogação de obras literárias através da API do Projeto Gutenberg.
+Literalura é uma aplicação Java baseada em Spring Boot que permite buscar livros gratuitos via API pública do Gutendex, salvando os dados de livros e autores em um banco de dados relacional.
 
+A aplicação também permite consultar, listar e filtrar os livros e autores já registrados.
 ## 🔗 Sobre a API e Fonte de Dados
 - **API Gutendex**: [https://gutendex.com/](https://gutendex.com/)  
   _Interface moderna para acessar o catálogo do Projeto Gutenberg com metadados completos._
@@ -16,7 +17,7 @@ Aplicação Java com Spring Boot para busca e catalogação de obras literárias
 
 ## ✨ Funcionalidades Principais
 - 🔍 Busca de livros por título, autor ou idioma
-- 📊 Top 10 livros mais baixados
+- 📊 Top 5 livros mais baixados
 - 📥 Exportar dados para JSON
 - 📈 Estatísticas de autores por período histórico
 
