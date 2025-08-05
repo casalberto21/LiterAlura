@@ -35,17 +35,31 @@ Aplicação Java com Spring Boot para busca e catalogação de obras literárias
 - PostgreSQL 15+ (rodando na porta 5432)
 - Maven 3.8+
 
-## 1. Clone o repositório:
+## 🚀 Como Executar
+
+### 1. Clone o repositório
 ```bash
 git clone https://github.com/casalberto21/literalura.git
+cd literalura
 
-## 2. Configure o banco de dados # application-dev.properties (não versionado)
+2. Configure o banco de dados
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 
-## 3. Execute o projeto
+Certifique-se de ter criado o banco de dados com o nome literalura
 
-## 4. O menu interativo será exibido no terminal. Basta seguir as opções.
+3.Execute o projeto
+
+mvn spring-boot:run
+
+4. Uso da aplicação
+O menu interativo será exibido no terminal. Basta seguir as opções numéricas
+
+
+
+
+
 
 
